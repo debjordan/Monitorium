@@ -1,0 +1,27 @@
+# Ignore arquivos e diretórios do Docker
+*.log
+*.env
+docker-compose.override.yml
+docker-compose.yml
+*.swp
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos do editor (VS Code, Sublime, etc)
+.vscode/
+.idea/
+
+# Ignorar arquivos de build e dependências
+node_modules/
+dist/
+build/
+
+# Ignorar arquivos de configuração do Prometheus e Grafana que não são sensíveis
+prometheus.yml
+grafana/provisioning/
+
+# Ignorar arquivos temporários
+*.bak
+*.tmp
