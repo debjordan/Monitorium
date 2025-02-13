@@ -28,7 +28,7 @@ Antes de rodar o projeto, é necessário ter o Docker e o Docker Compose instala
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/Monitorium.git
+git clone https://github.com/debjordan/Monitorium.git
 cd Monitorium
 2. Suba os containers usando Docker Compose
 Execute o seguinte comando para iniciar o ambiente de monitoramento:
